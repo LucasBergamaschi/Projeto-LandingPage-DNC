@@ -1,0 +1,155 @@
+*{
+    background-color: transparent;
+}
+
+
+#banner {
+    width: 1500px;
+    height: 500px;
+}
+
+#Titulod1 {
+    font-family: "Anton SC", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(101, 255, 112);
+}
+
+#Subtitle2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: auto 30px;
+
+}
+#menuinformacional {
+
+    background-color: rgb(231, 231, 231);
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+
+}
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.textoinformativo {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif; ;
+
+}
+#titlevideo {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(3, 104, 70);
+    width: 650px;
+    border-radius: 50px;
+    color: #65ff70;
+    font-size: 30px;
+
+}
+#textovideo {
+    font-family: "Roboto", sans-serif;
+}
+
+#video {
+    margin: 50px 25px 25px 100px;
+}
+#carrossel {
+    background-color: rgb(6, 149, 49);
+    padding: 50px;
+    width: 1390px;
+    
+}
+#titulocarrossel {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+#onixpreto {
+    width: 350px;
+}
+#onixsedanvermelho {
+    width: 400px;
+}
+#onixprata {
+    width: 350px;
+}
+#renegadevermelha {
+    width: 350px;
+    display: none;
+}
+#renegadebranca {
+    width: 300px;
+    display: none;
+}
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+#carrossel-veiculo {
+    margin-left: 70px;
+   
+}
+#setaesquerda {
+    display: none;
+}
+.seta{
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateX(-7px);
+    transition-duration: 0.5s;
+}
+#formulario {
+    text-align: center;
+
+}
+#tituloformulario{
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #002d03;
+}
+input{
+    width: 300px;
+    height: 53px;
+    background-color: beige;
+    margin: 15px;
+    border: 0px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+button{
+    background-color: #002d03;
+    width: 250px;
+    height: 53px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    border: 0px;
+    border-radius: 7px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #65ff70;
+    transform: translateY(3px);
+    box-shadow: 0px 15px 20px #002d03 ;
+    transition-duration: 0.3s;
+}

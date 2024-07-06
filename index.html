@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola DNC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <!--BANNER-HOME-->
+    <div>
+        <img src="imagens/MO_0857_23_BANNER_PARCERIA_DESKTOP_1920X703-1.png" id="banner" alt="ERROR">
+    </div>
+    <!--TITULO&SUBTITULO-->
+    <div>
+        <h1 id="Titulod1">Alugue seu carro hoje mesmo!</h1>
+        <h2 id="Subtitle2">Não perca mais tempo</h2>
+    </div>
+    <!--MENU-INFORMATIVO-COM-ICONES-->
+    <div id="menuinformacional">
+       
+        <p class="textoinformativo"> <img src="icones/certificado.svg" class="icone" id="certificado" alt=""> Certificado de conclusão </p>
+        <p class="textoinformativo"> <img src="icones/relogio.svg" class="icone" id="relogio" alt="">4 horas de conteúdo</p>
+        <p class="textoinformativo"> <img src="icones/camera.svg" class="icone" id="camera" alt="">Aulas online gravadas</p>
+    </div>
+    <!--SEÇAO-VIDEO-->
+    <div id="secaovideo">
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/BlmpQs7mP-g?si=yAoegg6dSoU2Pu2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+             <h1 id="titlevideo">Veja como é facil alugar um veiculo</h1>
+        <p id="textovideo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
+        It has survived not only five centuries, but also the leap into electronic typesetting,<br>
+        remaining essentially unchanged. It was popularised in the 1960s with the release</p>
+    </div>
+
+    </div>
+    <!--CARROSSEL-->
+    <div id="carrossel">
+        <h1 id="titulocarrossel">Veja nossos veiculos disponiveis</h1>
+        <div id="div-cards">
+        <img id="setaesquerda" onclick="rolarParaEsquerda()" class="seta" src="icones/seta-esquerda.svg" alt="">
+        <img class="carrossel-veiculo" id="onixpreto" src="cards/preeto-onix-ltz-mt.png" alt="">
+        <img class="carrossel-veiculo" id="onixsedanvermelho" src="cards/chevrolet-onix-plus-vermelho-carmim-3-4-frente.webp" alt="">
+        <img class="carrossel-veiculo" id="onixprata" src="cards/carro.webp" alt="">
+        <img class="carrossel-veiculo" id="renegadevermelha" src="cards/comprar-custom-1-8-flex-mt5_ca00d241e1.png" alt="">
+        <img class="carrossel-veiculo" id="renegadebranca" src="cards/RENEGADE-PNG.png" alt="">
+        <img id="setadireita" onclick="rolarParaDireita()" class="seta" src="icones/seta-direita.svg" alt="">
+    </div>
+    </div>
+    <!--FOMULARIO-->
+    <div id="formulario">
+        <h1 id="tituloformulario" >Preencha o formulario abaixo:</h1>
+        <form action="https://api.sheetmonkey.io/form/9QFBTnsRPKNhJ9iYVUvyb4" method="post">
+            <input type="text" placeholder="Nome" name="Name" required>  <br>
+            <input type="email" placeholder="Email"name="Email" required> <br>
+            <input type="number" placeholder="Telefone" name="Phone" required> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Envie o formulario</button>
+        </form>
+
+    </div>
+     <script src="index.js"></script>
+</body>
+</html>
